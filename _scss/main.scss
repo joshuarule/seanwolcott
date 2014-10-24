@@ -1,6 +1,6 @@
-@import "reset";
-@import "syntax";
-
-body {
-    background: white;
-}
+@import '../app/bower_components/meyer-reset/reset.scss';
+@import "../app/bower_components/bourbon/dist/bourbon";
+@import "../app/bower_components/neat/app/assets/stylesheets/neat";
+@import "config";
+@import "base";
+@import "layout";

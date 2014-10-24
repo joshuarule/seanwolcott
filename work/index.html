@@ -1,0 +1,19 @@
+---
+layout: default
+title: Work
+---
+
+<p>
+  Graphic design works can be seen in detail at <a href="http://www.rationale-design.com">Rationale</a> showcasing a broad range of work including corporate identity systems, user interfaces, websites, posters, packaging, publications, and more.
+</p>
+
+<ul class="projects">
+  {% for i in (1..6) %}
+    <li class="project">
+      <a href="http://www.rationale-design.com/projects" target="_blank">
+        {% capture img %}work/work-{{i}}{% endcapture %}
+        {% include img.html %}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

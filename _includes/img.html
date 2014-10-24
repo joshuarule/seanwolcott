@@ -1,0 +1,17 @@
+<!-- <span data-alt="project image">
+  <span data-src="assets/imgs/{{img}}-@1x.jpg"></span>
+  <span data-src="assets/imgs/{{img}}-@2x.jpg" data-media="(-webkit-min-device-pixel-ratio: 2.0)"></span>
+  <span data-src="assets/imgs/{{img}}-@1x.jpg" data-media="(min-width: 1025px)"></span>
+  <span data-src="assets/imgs/{{img}}-@2x.jpg" data-media="(min-width: 1025px) and (-webkit-min-device-pixel-ratio: 2.0)"></span>
+  <noscript>
+      <img src="assets/imgs/{{img}}-@1x.jpg" alt="project image">
+  </noscript>
+</span> -->
+
+
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/assets/imgs/{{img}}-@2x.jpg" media="(min-width: 800px)">
+  <!--[if IE 9]></video><![endif]-->
+  <img srcset="/assets/imgs/{{img}}-@1x.jpg, /assets/imgs/{{img}}-@2x.jpg 2x" alt="sean wolcott image">
+</picture>

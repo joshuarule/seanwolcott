@@ -3,11 +3,107 @@ layout: default
 title: Your New Jekyll Site
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+<section>
+  {% capture img %}profile/profile-l1{% endcapture %}
+  {% include img.html %}
+  <h2>Biography</h2>
+  <p>Sean Wolcott is a Seattle-based graphic designer, currently working as Senior Art Director at Microsoft. Besides creating user interfaces and experiences for products used by millions, Mr. Wolcott runs his own practice, Rationale, where he designs identities, packaging, signage, publications, websites, and user interfaces for a wide array of clients.</p>
+
+  <p>His work reflects a holistic philosophy of design and a visual language, which aims at rational, objective expression that can appropriately convey clients' values. For Mr. Wolcott, design is not a matter of style, but rather a logical, problem-solving process that leads to timeless solutions.</p>
+
+  <p>Mr. Wolcott had the privilege of studying under Massimo Vignelli, whose teachings continue to inform his philosophy and propel his craft to higher standards of excellence.</p>
+
+  <p>His work is often featured in online and printed publications, and he has been nominated by Mr. Vignelli as one of the six top American graphic designers today under the age of 50, for which his works will be exhibited in the US and Italy in the fall of 2015.</p>
+
+  <p>Mr. Wolcott is also a teacher at the School of Visual Concepts (SVC) in Seattle, where he teaches corporate identity and user interface design courses. His efforts to inform and promote a better design culture are also reflected in his lecturing activity as an international speaker, having lectured several times in the United States, as well as in European countries.</p>
+</section>
+
+<section>
+  <h2>Awards & Exhibitions</h2>
+  <ul>
+    <li>
+      <strong>2014</strong>
+      laFondazioneNY
+      Selected as one of the top five designers in the USA by Massimo Vignelli for future exhibition
+    </li>
+    <li>
+      <strong>2014</strong>
+      Chaircuterie, AIGA 100 Colorado
+      Selected designer for poster exhibition
+    </li>
+    <li>
+      <strong>2013</strong>
+      Vignelli Center for Design Studies
+      Masterclass award winner
+    </li>
+    <li>
+      <strong>2012</strong>
+      Vignelli Center for Design Studies
+      Masterclass award winner
+    </li>
   </ul>
-</div>
+</section>
+
+<section>
+  <h2>Teaching & Lectures</h2>
+  <ul>
+    2014
+    <li>
+      Øredev
+      Malmö, Sweden
+    </li>
+    <li>
+      Microsoft Ventures
+      Redmond, WA, USA
+    </li>
+  </ul>
+  <ul>
+    2013
+    <li>
+      Beyond Tiles
+      Stockholm, Sweden
+    </li>
+    <li>
+      Rochester Institute of Technology
+      Vignelli Center for Design Studies, 
+      Rochester, NY, USA
+    </li>
+    <li>
+      School of Visual Concepts
+      Seattle, WA, USA
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>Accolades</h2>
+  <ul>
+    <li>
+      <blockquote>
+        More than proud, I am honored to know such a talent
+        <cite>Massimo Vignelli</cite>
+      </blockquote>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>Publications</h2>
+  <ul>
+    2014
+    <li>
+      Unit Editions: Manuals 2
+      Interview/essay
+    </li>
+    <li>
+      Modernist graphic design in the Pacific Northwest – Tracing designers and influence
+      Arcade Magazine
+      Article
+    </li>
+    <li>
+      Graphic Design 2007–2014
+      Content/Design
+    </li>
+  </ul>
+</section>
+

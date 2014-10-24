@@ -1,4 +1,6 @@
-name: Your New Jekyll Site
+name: Sean Wolcott
 markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+baseurl: "/seanwolcott.com"
+url: "http://joshuarule.github.io/seanwolcott"

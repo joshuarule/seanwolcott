@@ -1,0 +1,68 @@
+* { 
+  box-sizing: border-box;
+}
+
+html {
+}
+
+body {
+  // border-top: solid $black 24px; // black bar at top of page
+  font-family: $font-sans;
+  -webkit-font-smoothing: antialiased !important;
+  color: $black;
+  font-size:    $h4;
+  line-height:  22px;
+}
+
+header,
+footer {
+  a {color: $black;}
+}
+
+header{
+  // margin: $qtr-spacing-unit 0 $half-spacing-unit;
+  min-height: 112px;
+}
+
+footer {
+  // @extend %border-top;
+  font-size: $h6;
+  line-height: 20px;
+  // padding-top: 3px;
+  margin-bottom: 100px;
+
+  &:before { // fix for border being cutoff ??
+    top: 0;
+  }
+}
+
+ul {}
+
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  font-family: $font-sans;
+  font-size: $h4;
+  color: $red;
+
+  &:hover {
+    cursor: pointer; 
+    cursor: hand;
+  }
+}
+
+img {width: 100%; display: block;}
+
+strong {
+  font-weight: bold;
+}
+
+
+
